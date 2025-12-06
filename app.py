@@ -8,7 +8,7 @@ from pathlib import Path
 #   CONFIG GÉNÉRALE
 # =========================
 
-DATA_DIR = Path(__file__).parent / "data_gp"
+DATA_DIR = Path(__file__).parent 
 
 st.set_page_config(
     page_title="Portfolio Analytics Dashboard",
